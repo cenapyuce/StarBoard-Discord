@@ -13,3 +13,5 @@
 - Neyse calınması durumunda veya ben kodladım demek durumunda sıcarım ağzınıza Djfdsıfsgyfewı
 - Hadi Bu kadar bilgi yeter
 - Bide Node.js sürümü 8.x
+
+![Gösterme](https://cdn.glitch.com/a8a18b66-9bd6-4323-9f4d-1fa5b5b09948%2Fbfa3f298-e8aa-43c2-bce5-70c5be6e79d9.image.png?v=1598363525930)
