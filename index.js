@@ -21,7 +21,8 @@ client.on('messageReactionAdd', (reaction, user) => {
       .addField("Kanal",`<#${reaction.message.channel.id}>`,true)
       .addField("Mesaja git!",`[Tıkla](${reaction.message.url})`,true)
       .setColor("GOLD")
-      .setImage(message.attachments.first().url)
+      .setImage(reaction.message.attachments.first().url)
+       client.channels.get(StarboardKanalid).send(embed)
 } else {
       const embed = new Discord.RichEmbed()
       .setTitle("StarBoard")
