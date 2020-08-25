@@ -14,13 +14,23 @@ client.on('messageReactionAdd', (reaction, user) => {
   if(reaction.message.guild.id === hangisunucudaolsuno) {
 	if (reaction.emoji.name == emoji) {
     if(reaction.count === emojikactaneoluncaatsınstarboarda) {
+	    if(raction.message.attachments.size > 0) {
+       const embed = new Discord.RichEmbed()
+      .setTitle("StarBoard")
+      .addField("Mesaj Sahibi",`${reaction.message.author.tag}`,true)
+      .addField("Kanal",`<#${reaction.message.channel.id}>`,true)
+      .addField("Mesaja git!",`[Tıkla](${reaction.message.url})`,true)
+      .setColor("GOLD")
+      .setImage(message.attachments.first().url)
+} else {
       const embed = new Discord.RichEmbed()
       .setTitle("StarBoard")
       .addField("Mesaj Sahibi",`${reaction.message.author.tag}`,true)
       .addField("Kanal",`<#${reaction.message.channel.id}>`,true)
       .addField("Mesaja git!",`[Tıkla](${reaction.message.url})`,true)
       .setColor("GOLD")
-      client.channels.get(StarboardKanalid).send(embed)
+            client.channels.get(StarboardKanalid).send(embed)
+}
     }
   }
   }
