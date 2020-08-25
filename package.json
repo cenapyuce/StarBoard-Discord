@@ -16,5 +16,10 @@
     "node",
     "glitch",
     "express"
-  ]
+  ],
+  "repository" : {
+    "type" : "git",
+    "url": "ssh://git@github.com/cenapyuce/StarBoard-Discord.git",
+    "directory": "packages/starboard-discord"
+  },
 }
