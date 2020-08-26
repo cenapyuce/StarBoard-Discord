@@ -30,7 +30,7 @@ client.on('messageReactionAdd', (reaction, user) => {
   if(reaction.message.guild.id === hangisunucudaolsuno) {
 	if (reaction.emoji.name == emoji) {
     if(reaction.count === emojikactaneoluncaatsınstarboarda) {
-	    if(raction.message.attachments.size > 0) {
+	    if(raection.message.attachments.size > 0) {
        const embed = new Discord.RichEmbed()
       .setTitle("StarBoard")
       .addField("Mesaj Sahibi",`${reaction.message.author.tag}`,true)
